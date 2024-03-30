@@ -18,6 +18,7 @@ for i in range(len(comparativo)):
         y.append(linha[1])
 
 # criando o 1o gráfico
+figura.add_subplot(131)
 plt.plot(x, y)
 
 plt.show()

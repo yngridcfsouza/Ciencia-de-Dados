@@ -25,3 +25,19 @@ comparativo_p2.plot(x = ['Data'], y = ['USD_BRL'])
 
 pyplot.show()
 
+
+
+
+# criando o 1o gráfico
+figura.add_subplot(131)
+plt.plot(x, y)
+
+# criando o 2o gráfico
+figura.add_subplot(132)
+plt.scatter(x, y)
+
+# criando o 3o gráfico
+figura.add_subplot(133)
+plt.bar(x, y)
+
+plt.show()
